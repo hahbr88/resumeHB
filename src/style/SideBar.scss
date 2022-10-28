@@ -1,0 +1,17 @@
+$mainColor : #EDE4E0;
+$layoutColor : #C8DBBE;
+$borderColor : #9F8772;
+$fontColor : #665A48;
+
+.navbar {
+  width: 20%;
+}
+
+.nav {
+  list-style: none;
+  padding: 0px;
+}
+
+.nav li {
+  border: 1px solid $fontColor;
+}

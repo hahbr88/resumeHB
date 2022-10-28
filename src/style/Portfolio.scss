@@ -1,0 +1,33 @@
+.portContainer {
+  box-sizing: border-box;
+  // border: 1px solid red;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 2%;
+}
+
+.card {
+  width: 49%;
+  height: 49%;
+  border: 1px solid rebeccapurple;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.thumbnail img {
+  width: 80%;
+
+}
+
+.badge {
+  height: 20px;
+  margin-right: 5px;
+}

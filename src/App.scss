@@ -1,0 +1,36 @@
+$mainColor : #EDE4E0;
+$layoutColor : #C8DBBE;
+$borderColor : #9F8772;
+$fontColor : #665A48;
+
+
+.App {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  border: 3px solid $borderColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $mainColor;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes backgroundChange {
+
+}
